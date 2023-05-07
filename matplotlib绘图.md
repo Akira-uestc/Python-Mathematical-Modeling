@@ -53,12 +53,12 @@
     
   4.分割绘图区域
   ------
-   示例：
-   plt.subplot(221)表示将画布分割为二行二列区域，在1位置绘图
-   或：
-   fig,axes = ply.subplot((x,y),figsize = ?)指定图片尺寸
-   然后：
-   axes[x][y].plot(......)
+    示例：
+    plt.subplot(221)表示将画布分割为二行二列区域，在1位置绘图
+    或：
+    fig,axes = ply.subplot((x,y),figsize = ?)指定图片尺寸
+    然后：
+    axes[x][y].plot(......)
    
   5.设置网格格式
   ------
