@@ -21,7 +21,8 @@
     调用ax对象
     ax.plot(x,y)
     
-    #axes类
+  3.axes类
+  ------
     ax.legend(线型，图例名称，图例位置)
     ax.set_xlabel()
     ax.set_ylabel()
@@ -49,6 +50,10 @@
     'y'	黄色
     'k'	黑色
     'w'	白色
+    
+  4.分割绘图区域
+  ------
+   plt.subplot()
     
 二、3d绘图规范：
 ==========
