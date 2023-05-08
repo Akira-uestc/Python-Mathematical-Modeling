@@ -66,11 +66,11 @@
     
   6.坐标轴格式
   -----
-  示例：
-  fig, axes = plt.subplots(1, 2, figsize=(10,4))
-  axes[0]plot(......)
-  axes.set_xlabel("......")
-  axes[0].set_ylabel("......")
+    示例：
+    fig, axes = plt.subplots(1, 2, figsize=(10,4))
+    axes[0]plot(......)
+    axes.set_xlabel("......")
+    axes[0].set_ylabel("......")
   
 二、3d绘图规范：
 ==========
