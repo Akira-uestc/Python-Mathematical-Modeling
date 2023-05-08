@@ -71,6 +71,11 @@
     axes[0]plot(......)
     axes.set_xlabel("......")
     axes[0].set_ylabel("......")
+  7.坐标轴范围
+  ------
+    ax.set_xlim(a,b)
+    ax.set_ylim(a,b)
+    ax.set_zlim(a,b)
   
 二、3d绘图规范：
 ==========
