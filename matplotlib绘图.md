@@ -76,8 +76,19 @@
     ax.set_xlim(a,b)
     ax.set_ylim(a,b)
     ax.set_zlim(a,b)
+    
+  8.设置坐标轴刻度
+  ------
+    ax.set_xticks(a,b,,...,n) #设置x轴刻度为a,b,...,n
+    ax.set_xticklabels(......) #刻度设置名称，与数字一一对应
   
-二、3d绘图规范：
+二、各种格式图
+=========
+  
+  1.双轴图
+  ------
+  
+三、3d绘图规范：
 ==========
 
   1.导入matplotlib和mpl_toolkits:
