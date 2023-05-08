@@ -63,6 +63,14 @@
   5.设置网格格式
   ------
     grid(color = '颜色缩写',ls = '网格线样式缩写',lw = 宽度)
+    
+  6.坐标轴格式
+  -----
+  示例：
+  fig, axes = plt.subplots(1, 2, figsize=(10,4))
+  axes[0]plot(......)
+  axes.set_xlabel("......")
+  axes[0].set_ylabel("......")
   
 二、3d绘图规范：
 ==========
