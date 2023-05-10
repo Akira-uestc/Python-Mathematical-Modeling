@@ -102,8 +102,46 @@
     
   3.直方图
   ------
+    plot.hist(一个数组的数据，间隔（一个数组序列），range,density,histtype)
+    #range	指定全局间隔的下限与上限值 (min,max)，元组类型，默认值为 None。
+    #density	如果为 True，返回概率密度直方图；默认为 False，返回相应区间元素的个数的直方图。
+    #histtype	要绘制的直方图类型，默认值为“bar”，可选值有 barstacked(堆叠条形图)、step(未填充的阶梯图)、stepfilled(已填充的阶梯图)。
     
+  4.饼状图
+  ------
+    ax.axis('equal') #使x，y轴距离相同
+    ax.pie(列表一，列表二，autopct='%1.2f%%')
   
+  5.折线图
+  ------
+    x1 = []
+    y1 = []
+    plt.plot(x1,y1,marker,markersize,label)
+    
+  6.散点图
+  ------
+    ax.scatter(列表一y轴间隔，列表二数据，color = '？',label = '?')
+    
+  7.等高线图(Z切片，Z与x，y的关系)
+  ------
+    xlist = np.linspace()
+    ylist = np.linspace()
+    X,Y = np.meshgrid(xlist, ylist)  #转化为网格数据(必须显示在网格中)
+    Z = f(X,Y)
+    #填充等高线颜色
+    cp = ax.contourf(X, Y, Z)
+    # 给图像添加颜色柱
+    fig.colorbar(cp)
+    
+  8.其他格式
+  ------
+    振动图（一组矢量箭头，其数学含义是在点 (x,y) 处具有分向量 (u,v)）
+    quiver(x,y,u,v)
+    箱型图（显示出一组数据的最大值、最小值、中位数、及上下四分位数）
+    boxplot()
+    提琴图（使用核密度估计（KDE）来计算样本的分布情况，图中要素包括了中位数、四分位间距以及置信区间。在数据量非常大且不方便一一展示的时候，小提琴图特别适用）
+    violinplot
+    
 三、3d绘图规范：
 ==========
 
